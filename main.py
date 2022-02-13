@@ -47,7 +47,8 @@ if uploaded_file is not None:
     #img = Image.open('megutatsu.jpg')
     from PIL import ImageDraw, ImageFont
     fontsize=40
-    font = ImageFont.truetype(font="C:\Windows\Fonts\meiryo.ttc",
+    #font = ImageFont.truetype(font="C:\Windows\Fonts\meiryo.ttc",
+    font = ImageFont.truetype(font="meiryo.ttc",
         size=fontsize)
 
     draw = ImageDraw.Draw(img)
@@ -72,6 +73,6 @@ if uploaded_file is not None:
 
 """
 
-#my first app
+#顔検出　性別　年齢　笑顔
 
 """
