@@ -1,6 +1,3 @@
-from matplotlib.font_manager import FontProperties
-import numpy as np
-import pandas as pd
 import streamlit as st
 import requests
 import io
